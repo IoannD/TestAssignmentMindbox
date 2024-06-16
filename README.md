@@ -33,4 +33,4 @@ ON p."Id" = joinTable."ProductId"
 
 LEFT JOIN public."Categories" c
 ON joinTable."CategoryId" = c."Id"
-```****
+```
